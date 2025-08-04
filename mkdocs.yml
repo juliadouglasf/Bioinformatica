@@ -35,3 +35,24 @@ markdown_extensions:
 plugins:
   - 'search'
   - 'mknotebooks'
+  - i18n:
+      default_language: 'pt'
+      languages:
+        pt:
+          name: 'Português'
+          locale: 'pt-BR'
+          direction: 'ltr'
+          translations:
+            search: 'Pesquisar'
+            next_page: 'Próxima página'
+            previous_page: 'Página anterior'
+            home: 'Início'
+        en:
+          name: 'English'
+          locale: 'en-CA'
+          direction: 'ltr'
+          translations:
+            search: 'Search'
+            next_page: 'Next page'
+            previous_page: 'Previous page'
+            home: 'Home'
